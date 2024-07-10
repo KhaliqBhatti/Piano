@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+    <link rel="stylesheet" href="./Piano.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body class="w-full h-screen  flex justify-center items-center ">
+
+    
+    
+    <div class="main w-full h-full items-center  flex justify-evenly ">
+        
+        <div class="piano-div w-[80%] h-[60%] border-2 flex justify-evenl overflow-hidden border-red-500 rounded-2xl">
+        <div data-key="65" class="keys text-center flex flex-col justify-between pb-5 text-2xl relative ">
+            <div data-key="87" class="black-sting w-[30%] h-[50%] bg-black mx-[94px] absolute -top-4 rounded-xl z-10 flex items-end justify-center text-white text-xl pb-3">
+                <p>W</p>
+            </div>
+            <p class=" absolute bottom-6 mx-12">A</p>
+        </div>
+    
+        <div data-key="83" class="keys text-center flex flex-col justify-between pb-5 text-2xl relative ">
+            <div data-key="69" class="black-sting w-[30%] h-[50%] bg-black mx-[94px] absolute -top-4 rounded-xl z-10 flex items-end justify-center text-white text-xl pb-3">
+                <p>E</p>
+            </div>
+            <p class="absolute bottom-6 mx-12">S</p>
+        </div>
+    
+        <div data-key="68" class="keys text-center flex flex-col justify-between pb-5 text-2xl relative ">
+           
+            <p class="absolute bottom-6 mx-12">D</p>
+        </div>
+    
+        <div data-key="70" class="keys text-center flex flex-col justify-between pb-5 text-2xl relative ">
+            <div  data-key="84" class="black-sting w-[30%] h-[50%] bg-black mx-[94px] absolute -top-4 rounded-xl z-10 flex items-end justify-center text-white text-xl pb-3">
+                <p>T</p>
+            </div>
+            <p class="absolute bottom-6 mx-12">F</p>
+        </div>
+    
+        <div data-key="71" class="keys text-center flex flex-col justify-between pb-5 text-2xl relative ">
+            <div  data-key="89" class="black-sting w-[30%] h-[50%] bg-black mx-[94px] absolute -top-4 rounded-xl z-10 flex items-end justify-center text-white text-xl pb-3">
+                <p>Y</p>
+            </div>
+            <p class="absolute bottom-6 mx-12">G</p>
+        </div>
+    
+        <div data-key="72" class="keys text-center flex flex-col justify-between pb-5 text-2xl relative ">
+            <div  data-key="85" class="black-sting w-[30%] h-[50%] bg-black mx-[94px] absolute -top-4 rounded-xl z-10 flex items-end justify-center text-white text-xl pb-3">
+                <p>U</p>
+            </div>
+            <p class="absolute bottom-6 mx-12">H</p>
+        </div>
+    
+        <div data-key="74" class="keys text-center flex flex-col justify-between pb-5 text-2xl relative ">
+            
+            <p class="absolute bottom-6 mx-12">J</p>
+        </div>
+    
+        <div data-key="75" class="keys text-center flex flex-col justify-between pb-5 text-2xl relative ">
+            <div  data-key="73" class="black-sting w-[30%] h-[50%] bg-black mx-[94px] absolute -top-4 rounded-xl z-10 flex items-end justify-center text-white text-xl pb-3">
+                <p>I</p>
+            </div>
+            <p class="absolute bottom-6 mx-12">K</p>
+        </div>
+        <div data-key="76" class="keys text-center flex flex-col justify-between pb-5 text-2xl relative ">
+            <p class="absolute bottom-6 mx-12">L</p>
+        </div>
+
+        </div>
+    
+
+    </div>
+
+ 
+
+    <audio data-key="65" src="a.wav"></audio>
+    <audio data-key="83" src="s.wav"></audio>
+    <audio data-key="68" src="d.wav"></audio>
+    <audio data-key="70" src="f.wav"></audio>
+    <audio data-key="71" src="g.wav"></audio>
+    <audio data-key="72" src="h.wav"></audio>
+    <audio data-key="74" src="j.wav"></audio>
+    <audio data-key="75" src="k.wav"></audio>
+    <audio data-key="76" src="l.wav"></audio>
+    <audio data-key="87" src="w.wav"></audio>
+    <audio data-key="69" src="e.wav"></audio>
+    <audio data-key="84" src="t.wav"></audio>
+    <audio data-key="89" src="y.wav"></audio>
+    <audio data-key="85" src="u.wav"></audio>
+    <audio data-key="73" src="o.wav"></audio>
+
+   
+
+    
+    
+
+    
+</body>
+<script src="./index.js"></script>
+</html>
